@@ -1,0 +1,211 @@
+﻿/*
+Item Name: jQuery a7la7ekaya
+Author: a7la7ekaya
+Author URI: http://www.a7la7ekaya.com
+Version: 1.0
+DEVELOPER BY: flyingfree
+E-mail: support@a7la7ekaya.com 
+*/
+
+/* _______________________________________________
+ */
+
+/* CONTAINER */
+/*
+ _______________________________________________
+ */
+
+.carousela7la
+{
+	position :relative ;
+	margin :0 auto;
+	width :930px;
+	height :auto;
+	border :none;
+	overflow : hidden ;
+}
+
+/* _______________________________________________ 
+*/
+
+/* slidesa7la */
+/* 
+_______________________________________________ 
+*/
+
+/* slide container */
+.carousela7la .slidesa7la
+{
+	margin :0;
+	padding :0;
+	border :none;
+	list-style :none;
+	position :relative ;
+	overflow :visible ;
+	height:200px
+}
+
+/* slide item */
+.carousela7la .slidesa7la .slideItem 
+{
+	position :absolute ;
+	cursor :pointer ;
+	overflow : hidden;
+	padding :0;
+	margin :0;
+	border :none;
+}
+
+.carousela7la .slidesa7la .slideItem a
+{
+	display: block ;
+	text-decoration :none;
+	margin :0;
+	padding :0;
+	border :none;
+	outline :none;
+}
+
+.carousela7la .slidesa7la .slideItem img
+{
+	margin :0;
+	padding :0;
+	border :none;
+	width :100%;
+	height :100%;
+}
+/* _______________________________________________ 
+*/
+
+/* BACKGROUND IMAGES */
+/* _______________________________________________ 
+*/
+.carousela7la .nextButton,
+.carousela7la .prevButton,
+.carousela7la .buttonNav .bullet,
+.carousela7la .buttonNav .bulletActive{
+    background-color: transparent;
+    background-image: url("https://i33.servimg.com/u/f33/19/52/81/36/icons10.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+/* _______________________________________________ 
+*/
+
+/* DIRECTION BUTTON */
+/* _______________________________________________ 
+*/
+
+
+.carousela7la .nextButton,
+.carousela7la .prevButton{
+    position :absolute ;
+    top :90px;
+    width :34px;
+    height :34px;
+    cursor :pointer ;
+    z-index :9999;
+}
+.carousela7la .nextButton{
+	left :44px;
+    background-position: 0 -34px;
+}
+.carousela7la .nextButton:hover{
+    background-position: -34px -34px;
+}
+.carousela7la .nextButton:active{
+    background-position: -68px -34px;
+}
+.carousela7la .prevButton{
+	right :44px;
+    background-position: 0 0;
+}
+.carousela7la .prevButton:hover{
+    background-position: -34px 0;
+}
+.carousela7la .prevButton:active{
+    background-position: -68px 0;
+}
+
+/* 
+_______________________________________________ 
+*/
+
+/* NAVIGATION BUTTON */
+/* _______________________________________________ 
+*/
+
+/* buttons container */
+.carousela7la .buttonNav{
+	position : relative ;
+	margin :0 auto;
+	z-index :999;
+}
+
+/* numbers */
+.carousela7la .buttonNav .numbers {
+	position :relative ;
+	float :left ;
+	margin :5px;
+	cursor :pointer ;
+}
+
+.carousela7la .buttonNav .numbers:hover{
+}
+
+.carousela7la .buttonNav .numberActive
+{
+	background : none;
+	color :#000;
+	cursor :default ;
+}
+
+/* bullets */
+.carousela7la .buttonNav .bullet{
+	position :relative ;
+	float :right ;
+	width :16px;
+	height :16px;
+	margin :5px;
+	cursor :pointer ;
+    background-position: -16px -68px ;
+
+}
+.carousela7la .buttonNav .bullet:hover{
+    background-position: 0 -68px;
+}
+.carousela7la .buttonNav .bulletActive{
+	cursor :default ;
+    background-position: 0 -68px;
+}
+/*
+ _____________________________
+ *
+
+/* SHADOW */
+/* 
+_____________________________ 
+*/
+
+.carousela7la .shadow{
+	width :100%;
+	height :26px;
+}
+
+.carousela7la .shadow .shadowLeft{
+	background : url("https://i33.servimg.com/u/f33/19/52/81/36/shadow10.png") no-repeat;
+	width :66px;
+	height :15px;
+}
+
+.carousela7la .shadow .shadowMiddle{
+	height :15px;
+	background:url("https://i33.servimg.com/u/f33/19/52/81/36/shadow11.png") repeat-x;
+}
+
+.carousela7la .shadow .shadowRight{
+	width :69px;
+	height :15px;
+	background:url("https://i33.servimg.com/u/f33/19/52/81/36/shadow12.png") no-repeat;
+
+}
